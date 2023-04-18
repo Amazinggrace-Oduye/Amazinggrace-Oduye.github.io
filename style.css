@@ -313,11 +313,6 @@ section .title::after {
   background: #fff;
 }
 
-/* .services .title::after,
-.teams .title::after{
-    background: #111;
-    content: "what i provide";
-} */
 .services .serv-content .card {
   width: calc(33% - 20px);
   background: #222;
@@ -521,6 +516,9 @@ section .title::after {
   display: flex;
   align-items: center;
 }
+.contact {
+  padding-bottom: 25px;
+}
 
 a {
   color: #fff;
@@ -528,9 +526,6 @@ a {
 
 .com {
   width: 70px;
-}
-.about .skills {
-  padding-bottom: 20px;
 }
 
 .right form .button-area button {
@@ -574,12 +569,9 @@ footer span a:hover {
 .flex-container {
   display: flex;
   width: 80%;
-  /* grid-template-columns: auto auto;
-  place-items: center; */
   justify-content: space-around;
   margin-left: auto;
   margin-right: auto;
-  /* background-color: aqua; */
 }
 
 .top {
@@ -589,7 +581,7 @@ footer span a:hover {
   height: 30vh;
   box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
   text-align: center;
-  padding-top: 40px;
+
   background-color: 0 4px 6px -1px rgb(0 0 0 / 0.1);
 }
 
